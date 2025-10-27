@@ -42,7 +42,8 @@ export default function DashboardPage() {
       if (data.emails && data.emails.length > 0) {
         setEmails(data.emails)
       } else {
-        // If no emails returned, show a message but don't use mock data
+        
+        
         alert('No emails found in your Gmail inbox')
         setEmails([])
       }
@@ -159,7 +160,7 @@ export default function DashboardPage() {
       alt={session.user?.name || 'User'}
       className="w-8 h-8 rounded-full"
       onError={(e) => {
-        // If image fails to load, hide the broken image
+        
         e.currentTarget.style.display = 'none'
       }}
     />

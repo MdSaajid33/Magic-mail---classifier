@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams
     const maxResults = parseInt(searchParams.get('maxResults') || '15')
 
-    // Create OAuth2 client with user's access token
+    // Creating OAuth2 client with user's access token
     const oauth2Client = new google.auth.OAuth2()
     oauth2Client.setCredentials({
       access_token: session.accessToken as string
