@@ -79,6 +79,15 @@ magicmail-classifier/
 - GET/POST /api/auth/[...nextauth] - Authentication routes
 
 
+## 🖼️ Project Demonstration
+
+<img width="800" height="450" alt="landing-page" src="landing-page.png">
+<img width="800" height="450" alt="authentication-page" src="authentication-page.png">
+<img width="800" height="450" alt="dashboard-empty.png" src="dashboard-empty.png">
+<img width="800" height="450" alt="ashboard-with-emails.jpg" src="dashboard-with-emails.jpg">
+<img width="800" height="450" alt="email-classification-results" src="email-classification-results.png">
+
+
 ## Security Features
 - OAuth 2.0 secure authentication
 - API keys stored in browser localStorage only
