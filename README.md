@@ -60,17 +60,18 @@ bash
 ## Project Structure: 
 
 magicmail-classifier/
-├── app/
-│   ├── auth/              # Authentication pages
-│   ├── dashboard/         # Main application dashboard
-│   ├── api/               # API routes
-│   │   ├── auth/         # NextAuth configuration
-│   │   ├── gmail/        # Gmail API integration
-│   │   └── classify/     # OpenAI classification
-│   └── layout.tsx        # Root layout
-├── types/                 # TypeScript definitions
-├── lib/                   # Utility functions
-└── public/               # Static assets
+
+- app/
+  - auth/                 # Authentication pages
+  - dashboard/            # Main application dashboard
+  - api/                  # API routes
+    - auth/              # NextAuth configuration
+    - gmail/             # Gmail API integration
+    - classify/          # OpenAI classification
+  - layout.tsx           # Root layout
+- types/                  # TypeScript definitions
+- lib/                    # Utility functions
+- public/                 # Static assets
 
 ## API Endpoints
 - GET /api/gmail - Fetch emails from Gmail API
@@ -87,9 +88,13 @@ magicmail-classifier/
 
 ## How to Use
 1- Enter OpenAI Key - Paste your API key on login page
+
 2- Google Login - Complete OAuth authentication
+
 3- Fetch Emails - Click to retrieve latest Gmail messages
+
 4- Classify Emails - Click to categorize using AI
+
 5- View Results - See emails organized into color-coded categories
 
 
